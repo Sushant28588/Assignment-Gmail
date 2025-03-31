@@ -10,7 +10,6 @@ import cucumber.api.junit.Cucumber;
 		features=".//Features/Login_and_compose.feature",
 		glue="StepDefinition",
 		dryRun=false,
-		//monochrome= true,
 		plugin= {"pretty", "html:taget/cucumber-reports/reports1.html"}
 		)
 
